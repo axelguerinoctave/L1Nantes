@@ -1,16 +1,22 @@
-def somme_vecteur(u, v, compteur = []):
+def somme_vecteur_r(u, v, compteur = []):
     if u == [] or v == []:
         return compteur
     else:
         compteur.append(u.pop(0) + v.pop(0))
         return somme_vecteur(u, v, compteur)
 
-def somme_matrice(a, b, compteur = []):
+def somme_matrice_r(a, b, compteur = []):
     if a == [] or b == []:
         return compteur
     else:
         compteur.append(somme_vecteur(a.pop(0), b.pop(0), []))
         return somme_matrice(a, b, compteur)
+
+def somme_vecteur(u, v):
+    r = []
+    for i in range(len(u)):
+        r.append(u[i] + v[i])
+    return r
 
 def Test():
     u = [2, 3]
