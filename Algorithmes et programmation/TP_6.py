@@ -41,6 +41,6 @@ for i in range(n):
     taux.append(t)
     volumes.append(v)
 
-printparams(genre, masse, heure, n, f1, f2, taux, volumes)
+print(params(genre, masse, heure, n, f1, f2, taux, volumes)
 
 print("Taux :", T(masse, heure, n, f1, f2, taux, volumes))
