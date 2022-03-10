@@ -1,0 +1,28 @@
+Un magasin de location de matériels de sport et de loisir loue des raquettes et des vélos. Chaque matériel a un numéro d’identification, un tarif horaire de location (nombre entier) et peut être disponible ou non. Les raquettes ont en plus le type de sport correspondant : tennis, badminton ou ping-pong (chaîne de caractères). Les vélos ont en plus une taille suivant l'âge (nombre entier) et peuvent être pour homme ou pour femme.
+
+ 
+
+1/    Définir les classes Materiel, Velo et Raquette d’après cette relation d’héritage.
+
+-      Dans chaque classe définir un constructeur qui prend autant d’arguments qu’il y a de champs et qui initialise ces derniers avec les valeurs des arguments.
+
+-      Définir dans la classe appropriée, les accesseurs (get) renvoyant la valeur des données suivantes : numéro, disponibilité et taille et le modificateur de valeur (set) pour la disponibilité.
+
+-      Définir dans la classe Materiel une méthode qui vérifie si ce matériel est moins cher (ayant un tarif inférieur) qu’un autre matériel.
+
+-      Définir dans la classe appropriée la méthode prix(int duree) qui renvoie le prix de location du matériel pour la durée (en nombre d’heures) donnée.
+
+-      Définir dans chaque classe une méthode qui affiche à l’écran toutes les données d’un matériel ainsi que sa catégorie s’il s’agit des raquettes ou d’un vélo.
+
+ 
+
+2/    Définir la classe Magasin qui utilise une collection de type ArrayList<Materiel>, appelée catalogue, pour contenir ses articles et qui a les méthodes suivantes :
+
+-      void materielsDispo() qui affiche tous les matériels de catalogue qui sont disponibles,
+
+-      Materiel rechercher(int num) qui renvoie le matériel ayant le numéro num s'il se trouve dans catalogue et null sinon,
+
+-     int louer(int num, int duree) qui loue pour la duree donnée (ce qui signifie de rendre le matériel non disponible), le matériel ayant le numéro num
+s’il existe, est disponible, renvoie le prix de cette location, et qui affiche des avertissements appropriés et renvoie 0 dans le cas contraire,
+
+-     int meilleurVelo() qui renvoie le numéro du vélo le moins cher parmi tous les vélos disponibles de catalogue et 0 si aucun vélo disponible n’est trouvé.
