@@ -6,8 +6,6 @@ Un magasin de location de matériels de sport et de loisir loue des raquettes et
 
 -      Dans chaque classe définir un constructeur qui prend autant d’arguments qu’il y a de champs et qui initialise ces derniers avec les valeurs des arguments.
 
--      Définir dans la classe appropriée, les accesseurs (get) renvoyant la valeur des données suivantes : numéro, disponibilité et taille et le modificateur de valeur (set) pour la disponibilité.
-
 -      Définir dans la classe Materiel une méthode qui vérifie si ce matériel est moins cher (ayant un tarif inférieur) qu’un autre matériel.
 
 -      Définir dans la classe appropriée la méthode prix(int duree) qui renvoie le prix de location du matériel pour la durée (en nombre d’heures) donnée.
@@ -16,7 +14,7 @@ Un magasin de location de matériels de sport et de loisir loue des raquettes et
 
  
 
-2/    Définir la classe Magasin qui utilise une collection de type ArrayList<Materiel>, appelée catalogue, pour contenir ses articles et qui a les méthodes suivantes :
+2/    Définir la classe Magasin qui utilise une collection de type List<Materiel>, appelée catalogue, pour contenir ses articles et qui a les méthodes suivantes :
 
 -      void materielsDispo() qui affiche tous les matériels de catalogue qui sont disponibles,
 
