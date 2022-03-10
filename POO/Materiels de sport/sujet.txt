@@ -1,4 +1,7 @@
-Un magasin de location de matériels de sport et de loisir loue des raquettes et des vélos. Chaque matériel a un numéro d’identification, un tarif horaire de location (nombre entier) et peut être disponible ou non. Les raquettes ont en plus le type de sport correspondant : tennis, badminton ou ping-pong (chaîne de caractères). Les vélos ont en plus une taille suivant l'âge (nombre entier) et peuvent être pour homme ou pour femme.
+Un magasin de location de matériels de sport et de loisir loue des raquettes et des vélos. Chaque matériel a un numéro d’identification, 
+un tarif horaire de location (nombre entier) et peut être disponible ou non. Les raquettes ont en plus le type de sport correspondant : 
+tennis, badminton ou ping-pong (chaîne de caractères). Les vélos ont en plus une taille suivant l'âge (nombre entier) et peuvent être 
+pour homme ou pour femme.
 
  
 
