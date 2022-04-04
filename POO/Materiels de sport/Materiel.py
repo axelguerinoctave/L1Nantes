@@ -16,4 +16,5 @@ class Materiel:
     def afficher(self):
         print("id :", self.id)
         print("tarif :", self.tarif)
-        print("dispo :", self.dispo)    
+        print("dispo :", self.dispo)  
+                
